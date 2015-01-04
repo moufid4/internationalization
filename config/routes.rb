@@ -1,7 +1,7 @@
 Rails.application.routes.draw do  resources :home
-#scope "/:locale" do
- # resources :books
-#end
+scope "/:locale" do
+ resources :home
+end
   
 
 
